@@ -1,280 +1,300 @@
 # AI Job Market Analytics
 
-An end-to-end **Data Analytics project** focused on analyzing the AI job market using Python, SQL, Excel, and data visualization techniques.
+## 📊 Project Overview
 
-The project explores job-market trends such as **job roles, salaries, experience levels, work modes, industries, locations, and other factors** to identify useful patterns and insights from AI-related job data.
+**AI Job Market Analytics** is a data analytics project focused on exploring job-market trends, salary patterns, experience levels, job roles, skills, industries, and geographic demand.
 
----
-
-## 📌 Project Overview
-
-The AI industry is growing rapidly, creating demand for different technical and non-technical job roles.
-
-This project analyzes an AI job-market dataset to understand:
-
-* Which job roles are in demand
-* Salary patterns across different roles and experience levels
-* Distribution of jobs by work mode
-* Industry-wise job distribution
-* Experience-level trends
-* Geographic/job-location patterns
-* Other factors influencing AI job opportunities
-
-The project combines **Python-based data analysis, SQL querying, and Excel dashboard visualization** to demonstrate an end-to-end analytics workflow.
+The project uses **Python, SQL, Excel, and data visualization** to transform raw job-market data into meaningful insights and an interactive Excel dashboard.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Project Objectives
 
-The main objectives of this project are:
-
-1. Analyze the structure and characteristics of AI job-market data.
-2. Clean and prepare the dataset for analysis.
-3. Explore job roles, salaries, industries, and experience levels.
-4. Use SQL to answer business-oriented analytical questions.
-5. Create visualizations to communicate important trends.
-6. Build an interactive Excel dashboard.
-7. Generate meaningful insights that can support data-driven understanding of the AI job market.
+* Analyze job postings and employment trends
+* Identify high-demand job roles and skills
+* Analyze salary patterns across roles and experience levels
+* Compare job opportunities across countries and industries
+* Study the relationship between experience and salary
+* Analyze yearly and monthly job-posting trends
+* Build an Excel dashboard for interactive data analysis
+* Practice Python, SQL, Excel, and data visualization skills
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| Tool / Technology   | Purpose                                     |
-| ------------------- | ------------------------------------------- |
-| **Python**          | Data cleaning and exploratory data analysis |
-| **Pandas**          | Data manipulation and analysis              |
-| **NumPy**           | Numerical operations                        |
-| **Matplotlib**      | Data visualization                          |
-| **SQL / MySQL**     | Querying and analyzing structured data      |
-| **Microsoft Excel** | Dashboard and visualization                 |
-| **VS Code**         | Development environment                     |
-| **Git & GitHub**    | Version control and project hosting         |
+* **Python**
+* **Jupyter Notebook**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **SQL / MySQL**
+* **Microsoft Excel**
+* **Git & GitHub**
+* **Data Visualization**
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
 AI-Job-Market-Analytics/
 │
 ├── data/
 │   └── raw/
-│       └── AI job market dataset
+│       └── AI Job Market Dataset.csv
 │
-├── python/
-│   └── 01_ai_job_market_analysis.py
-│
-├── sql/
-│   └── 01_ai_job_market_queries.sql
+├── excel/
+│   └── AI_Job_Market_Dashboard_Final.xlsx
 │
 ├── images/
-│   └── ai_job_market_dashboard.png
+│   ├── ai_job_market_dashboard.png
+│   ├── average_salary_by_experience_level.png
+│   ├── average_salary_by_experience_years.png
+│   ├── average_salary_by_job_role.png
+│   ├── average_salary_by_skill.png
+│   ├── average_salary_by_year.png
+│   ├── experience_vs_salary.png
+│   ├── job_postings_by_month.png
+│   ├── job_postings_by_year.png
+│   ├── skill_demand.png
+│   ├── total_job_openings_by_company_industry.png
+│   ├── total_job_openings_by_country.png
+│   ├── total_job_openings_by_experience_level.png
+│   └── total_job_openings_by_role.png
+│
+├── notebook/
+│   └── AI_Job_Market_Analysis.ipynb
+│
+├── sql/
+│   └── ai_job_market_queries.sql
 │
 └── README.md
 ```
 
 ---
 
-## 📊 Data Analysis Workflow
+## 🔄 Project Workflow
 
-The project follows a standard data-analytics workflow:
-
-### 1. Data Collection
-
-The raw AI job-market dataset is stored in the `data/raw/` directory.
-
-### 2. Data Cleaning
-
-Python and Pandas are used to:
-
-* Inspect the dataset
-* Identify missing values
-* Check duplicate records
-* Handle inconsistent data
-* Convert columns into appropriate data types
-* Prepare the dataset for analysis
-
-### 3. Exploratory Data Analysis
-
-The dataset is explored to understand:
-
-* Job-role distribution
-* Salary trends
-* Experience levels
-* Work modes
-* Industries
-* Locations
-* Other relevant job-market attributes
-
-### 4. SQL Analysis
-
-SQL queries are used to perform analytical operations such as:
-
-* Aggregations
-* Filtering
-* Grouping
-* Sorting
-* Salary analysis
-* Role-wise analysis
-* Experience-level analysis
-* Industry-level analysis
-
-### 5. Dashboard Development
-
-An Excel dashboard is used to present important findings through:
-
-* KPI cards
-* Charts
-* Filters
-* Work-mode analysis
-* Industry analysis
-* Experience-level analysis
-* Other job-market visualizations
+```text
+Raw Dataset
+     ↓
+Data Cleaning & Preparation
+     ↓
+Exploratory Data Analysis
+     ↓
+Python Analysis
+     ↓
+SQL Analysis
+     ↓
+Excel Dashboard
+     ↓
+Visual Insights
+```
 
 ---
 
-## 📈 Dashboard
-
-The Excel dashboard provides a visual overview of the AI job market and allows important trends to be understood quickly.
-
-### Dashboard Preview
+## 📈 Dashboard Preview
 
 ![AI Job Market Dashboard](images/ai_job_market_dashboard.png)
 
----
-
-## 🔍 Key Areas of Analysis
-
-### 💼 Job Roles
-
-Analysis of different AI-related job positions helps understand the distribution of opportunities across roles.
-
-### 💰 Salary Analysis
-
-Salary information is analyzed to understand differences across:
-
-* Job roles
-* Experience levels
-* Industries
-* Other relevant categories
-
-### 🏢 Industry Analysis
-
-The project examines how AI-related job opportunities are distributed across different industries.
-
-### 🏠 Work Mode Analysis
-
-Job opportunities are analyzed according to work arrangements such as:
-
-* Remote
-* Hybrid
-* On-site
-
-### 📚 Experience-Level Analysis
-
-The project examines job distribution and salary patterns across different experience levels.
-
-### 🌍 Location Analysis
-
-Job-market data is also explored geographically to identify location-based patterns in AI employment.
+The Excel dashboard provides a visual overview of job-market trends and salary-related insights.
 
 ---
 
-## 📌 Business Questions
+## 🔍 Key Analysis Areas
 
-Some of the questions explored in this project include:
+### 1. Job Market Trends
 
-1. What are the most common AI-related job roles?
-2. How are jobs distributed across experience levels?
-3. How do salaries vary between different job roles?
-4. Which industries have more AI-related opportunities?
-5. How are jobs distributed across remote, hybrid, and on-site work modes?
-6. Which locations have a higher concentration of AI-related jobs?
-7. How does experience level relate to salary?
-8. What patterns can be identified from the overall AI job market?
+* Job postings by year
+* Job postings by month
+* Job openings by job role
+* Job openings by experience level
+
+### 2. Salary Analysis
+
+* Average salary by job role
+* Average salary by experience level
+* Average salary by years of experience
+* Average salary by skill
+* Average salary by year
+* Experience vs. salary relationship
+
+### 3. Skill Demand
+
+The analysis identifies skills appearing across job opportunities and helps understand the demand for different technical skills.
+
+### 4. Geographic Analysis
+
+Job opportunities are analyzed across different countries to identify geographic patterns in the job market.
+
+### 5. Industry Analysis
+
+The project analyzes job openings across different company industries to understand where opportunities are concentrated.
 
 ---
 
-## 📊 Skills Demonstrated
+## 💼 Business Questions
 
-This project demonstrates practical skills in:
+This project addresses questions such as:
 
-* Data Cleaning
-* Exploratory Data Analysis
-* Data Manipulation
-* Data Visualization
-* SQL Querying
-* Excel Dashboard Development
-* KPI Analysis
-* Business Question Analysis
-* Analytical Thinking
-* Data Storytelling
+* Which job roles have the highest number of openings?
+* How does salary change with experience?
+* Which experience levels have the most job opportunities?
+* Which skills are frequently demanded?
+* How do salaries vary across job roles?
+* How have job postings changed over time?
+* Which countries have more job opportunities?
+* Which industries have higher job demand?
+* Is there a relationship between experience and salary?
+
+---
+
+## 📊 Visualizations
+
+The project includes visualizations for:
+
+* Average Salary by Experience Level
+* Average Salary by Experience Years
+* Average Salary by Job Role
+* Average Salary by Skill
+* Average Salary by Year
+* Experience vs Salary
+* Job Postings by Month
+* Job Postings by Year
+* Skill Demand
+* Total Job Openings by Company Industry
+* Total Job Openings by Country
+* Total Job Openings by Experience Level
+* Total Job Openings by Role
+
+---
+
+## 📗 Excel Dashboard
+
+The Excel dashboard provides an interactive view of the analyzed job-market data.
+
+**Dashboard file:**
+
+`excel/AI_Job_Market_Dashboard_Final.xlsx`
+
+The dashboard can be used to explore job-market trends, salary patterns, experience levels, roles, skills, and other analytical insights.
+
+---
+
+## 🧮 SQL Analysis
+
+SQL queries are included in:
+
+```text
+sql/ai_job_market_queries.sql
+```
+
+The SQL analysis is used to practice querying, filtering, grouping, aggregation, sorting, and extracting business insights from the job-market dataset.
+
+---
+
+## 🐍 Python Analysis
+
+The complete Python-based analysis is available in the Jupyter Notebook:
+
+```text
+notebook/AI_Job_Market_Analysis.ipynb
+```
+
+The notebook contains data analysis, calculations, visualizations, and insights derived from the raw dataset.
+
+---
+
+## 📂 Dataset
+
+The raw dataset is stored at:
+
+```text
+data/raw/AI Job Market Dataset.csv
+```
+
+The dataset is used as the primary source for the project's Python, SQL, and Excel analysis.
 
 ---
 
 ## 🚀 How to Run the Project
 
-### Step 1: Clone the Repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/deepak-kumar-sah/AI-Job-Market-Analytics.git
 ```
 
-### Step 2: Navigate to the Project
+### 2. Open the project
 
-```bash
-cd AI-Job-Market-Analytics
+Open the project folder in **Visual Studio Code**.
+
+### 3. Explore the dataset
+
+Navigate to:
+
+```text
+data/raw/AI Job Market Dataset.csv
 ```
 
-### Step 3: Install Required Python Libraries
-
-```bash
-pip install pandas numpy matplotlib
-```
-
-### Step 4: Run the Python Analysis
-
-```bash
-python python/01_ai_job_market_analysis.py
-```
-
-### Step 5: SQL Analysis
+### 4. Run the analysis
 
 Open:
 
 ```text
-sql/01_ai_job_market_queries.sql
+notebook/AI_Job_Market_Analysis.ipynb
 ```
 
-Run the queries using **MySQL** or another compatible SQL environment.
+Run the notebook cells to reproduce the analysis and visualizations.
+
+### 5. Explore SQL queries
+
+Open:
+
+```text
+sql/ai_job_market_queries.sql
+```
+
+Run the queries using a compatible SQL environment such as MySQL.
+
+### 6. Explore the Excel dashboard
+
+Open:
+
+```text
+excel/AI_Job_Market_Dashboard_Final.xlsx
+```
 
 ---
 
-## 📁 Dataset
+## 💡 Skills Demonstrated
 
-The raw dataset used for this project is stored inside:
-
-```text
-data/raw/
-```
-
-The dataset contains information related to AI job-market opportunities and is used for exploratory and analytical purposes.
-
-> **Note:** The analysis and conclusions depend on the dataset used in this project and should not be interpreted as a complete representation of the entire global AI job market.
+* Data Cleaning
+* Exploratory Data Analysis
+* Data Analysis
+* SQL Querying
+* Excel Dashboard Development
+* Data Visualization
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Business Problem Solving
+* Git & GitHub
 
 ---
 
 ## 📌 Project Highlights
 
-* End-to-end data analytics workflow
-* Python-based data analysis
-* SQL-based business queries
-* Excel dashboard
-* KPI-based reporting
-* Data visualization
-* AI job-market trend analysis
+* Complete end-to-end data analytics workflow
+* Raw dataset included in the repository
+* Python/Jupyter Notebook analysis
+* SQL analysis queries
+* Interactive Excel dashboard
+* Multiple analytical visualizations
 * GitHub-ready project structure
+* Focused on practical Data Analyst skills
 
 ---
 
@@ -285,14 +305,14 @@ The dataset contains information related to AI job-market opportunities and is u
 B.Tech Computer Science & Engineering
 Teerthanker Mahaveer University, Moradabad
 
-### Skills
+**GitHub:**
+https://github.com/deepak-kumar-sah
 
-**Python | SQL | Excel | Power BI | Pandas | MySQL | Data Analysis | Data Visualization**
+**LinkedIn:**
+https://www.linkedin.com/in/deepak-kumar-sah01/
 
 ---
 
 ## ⭐ Project Purpose
 
-This project was created as part of my **Data Analytics learning and portfolio development** to demonstrate practical experience in transforming raw data into meaningful insights using Python, SQL, and Excel.
-
-If you find this project useful, consider giving the repository a ⭐ on GitHub.
+This project was created to demonstrate practical **Data Analyst skills** by combining Python, SQL, Excel, data visualization, and business-oriented analysis on a job-market dataset.
