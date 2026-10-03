@@ -218,7 +218,7 @@ This project demonstrates practical skills in:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/deepak-kumar-sah/AI-Job-Market-Analytics.git
 ```
 
 ### Step 2: Navigate to the Project
